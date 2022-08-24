@@ -46,13 +46,13 @@ footer p {
 }
 .container{
     margin: 20px;
-    padding: 20px 70px;
+    padding: 20px 100px;
 }
 main{
     background-color: white;
     color: black;
     padding: 20px;
 }
-nav a{
-    
+nav a:hover{
+    color: #5BBE42;    
 }
