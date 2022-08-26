@@ -1,8 +1,14 @@
 @charset "UTF-8";
 
+header img{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 4px solid #5BBE42
+}
 body{
     color: white;
-    background-color: black;
+    background-image: url(imagem/degrade2.jpg);
     font-family: 'noto serif HK', serif;
 }
 ul{
@@ -16,15 +22,6 @@ a{
     color: white;
     text-decoration: none;
     
-}
- header img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 4px solid #5BBE42
-}
-.center{
-    text-align: center;
 }
 h1{
     color: #5BBE42;
@@ -44,10 +41,6 @@ footer a {
 footer p {
     margin: 2px;
 }
-.container{
-    margin: 20px;
-    padding: 20px 100px;
-}
 main{
     background-color: white;
     color: black;
@@ -55,4 +48,12 @@ main{
 }
 nav a:hover{
     color: #5BBE42;    
+}
+
+.center{
+    text-align: center;
+}
+.container{
+    margin: 20px;
+    padding: 20px 100px;
 }
