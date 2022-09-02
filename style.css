@@ -57,3 +57,12 @@ nav a:hover{
     margin: 20px;
     padding: 20px 100px;
 }
+#sec1, #sec2 , #sec3{
+    background-color: #5BBE42;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+       
+}
+
+
