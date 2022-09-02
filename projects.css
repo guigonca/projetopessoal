@@ -17,14 +17,17 @@ main nav ul a{
     text-align: center;  
 }
  nav ul ul{
-    display: none;
     position: relative;
     top: -130px
  }
  
-main a:hover{
+main ul li a:hover{
     background-color: #5bbe4267;
     transition: 1s;
+    display: block;
+}
+main nav li li{
+    display: none;
 }
 .container nav ul {
     display: flex;
