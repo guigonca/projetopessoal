@@ -53,19 +53,78 @@ h2{
     top: 200px;
     width: 500px;
     height: 200px;
-    left: 100px;
+    left: 150px;
     color: var(--cor-branca);
+}
+div p{
+    margin: 5px;
+}
+#curriculoposition{
+    /* background-color: black; */
+    margin-top: 30px;
+    position: absolute;
+    left: -20px;
+}
+#downcurriculo{
+    padding: 10px 25px;
+    color: var(--cor-verde);
+    border: 2px solid var(--cor-verde);
+}
+#downcurriculo:hover{
+    color: var(--cor-branca);
+    background-color: var(--cor-verde);
 }
 img{
     width: 500px;
     height: 500px;
 }
-figure{
+main figure{
     position: absolute;
-    right: 110px;
+    right: 140px;
 }
 .resumofoto{
     height: 500px;
-   
+}
+main{
+    height: 600px;
+}
+#fotoperfil{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 120px;
+    border: 4px solid var(--cor-verde);
+    border-radius: 50%;
+    padding: 5px;
+}
+aside{
+    position: absolute;
+    left: 80px;
+    width: 500px;
+    height: 200px;
+}
+aside p{
+    position: relative;
+    left: 155px;
+    top: 220px;
+    color: var(--cor-branca);
+}
+.sobre{
+    /* background-color: black; */
+    color: var(--cor-branca);
+    font-size: 20px;
+    position: absolute;
+    top: 720px;
+    right: 200px;
+    width: 550px;
+}
+div h2{
+    font-size: 25px;
+    position: relative;
+    top: -50px;
+    left: 0;
+}
+div h3{
+    font-size: 20px;
 }
 
