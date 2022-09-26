@@ -78,7 +78,6 @@ footer{
 .botoes button{
     height: 55px;
     width: 170px;
-    border-radius: 5px;
     border: 0;
     margin: 0 10px;
     font-size: 20px;
@@ -89,6 +88,7 @@ footer{
 }
 
 .n-overlay{
+    border-radius: 10px;
     color: rgb(255, 255, 255);
     background: none;
 }
@@ -100,9 +100,14 @@ footer{
 }
 
 .overlay{
+    border-radius: 10px;
     color: rgb(255, 255, 255);
     background: none;
     animation: vibrar 0.5s ease-in-out infinite both;
+}
+.overlay:hover{
+    background-color: black;
+    transition: 0.3s;
 }
 
 @keyframes vibrar {
